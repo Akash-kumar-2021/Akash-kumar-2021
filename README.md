@@ -14,7 +14,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Akash-kumar-2021&label=Profile%20views&color=0e75b6&style=flat" alt="Akash" /> </p>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/vaibhavginnalw1?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/@Akashkumar?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
 - 📫 How to reach me **akashkumarhit93@gmail.com**
 
@@ -61,5 +61,4 @@
 <a><img  width="49.6%"  src="https://github-readme-stats.vercel.app/api?username=Akash-kumar-2021&show_icons=true&locale=en&theme=tokyonight" alt="vaibhav0702" /> 
       <img  width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=Akash-kumar-2021&&theme=tokyonight" alt="Akash-kumar-2021" /></a>
   </p>
-
 
