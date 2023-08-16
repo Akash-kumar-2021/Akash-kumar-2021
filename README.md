@@ -2,7 +2,7 @@
 
 
 <h1 align="center">Hi 👋, I'm Akash </h1>
-<h3 align="center">A passionate full stack developer. Love to learn new things.</h3>
+<h3 align="center">A passionate frontend developer. Love to learn new things.</h3>
 
 <p align="center">
   <a href="https://github.com/shikha-max/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Aspiring+Web+Developer;%20Enthusiast;Always%20ready%20to%20learn%20new%20things&center=true&width=500&height=50"></a>
