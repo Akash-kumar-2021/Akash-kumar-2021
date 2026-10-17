@@ -1,85 +1,39 @@
-<p align="center">
-  <a href="https://akashkumar.tech/"><img src="./assets/hero.svg" width="100%" alt="Akash Kumar — Software Engineer, web and mobile" /></a>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://akashkumar.tech/"><img src="https://img.shields.io/badge/Portfolio-akashkumar.tech-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0B1026" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/akash-kumar-05b6881a8/"><img src="https://img.shields.io/badge/LinkedIn-Connect-818CF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B1026" alt="LinkedIn" /></a>
-  <a href="mailto:akashkumarhit93@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-E879F9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1026" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Akash-kumar-2021&label=VIEWS&color=22D3EE&style=for-the-badge&labelColor=0B1026" alt="Profile views" />
-</p>
+<a href="https://akashkumar.tech/"><img src="./assets/hero.svg" width="100%" alt="Akash Kumar — Software Engineer, web and mobile" /></a>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=800&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+web+and+mobile+apps+with+React+%2B+React+Native;Admin+analytics+dashboards+%C2%B7+role-based+access+control;Real-time+chat+%C2%B7+push+notifications+%C2%B7+QR-code+workflows;100%25+test+coverage+on+critical+UI+components" alt="Typing intro" />
-</p>
+<a href="https://akashkumar.tech/"><img src="./assets/btn-portfolio.svg" height="46" alt="Portfolio" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/akash-kumar-05b6881a8/"><img src="./assets/btn-linkedin.svg" height="46" alt="LinkedIn" /></a>&nbsp;
+<a href="mailto:akashkumarhit93@gmail.com"><img src="./assets/btn-email.svg" height="46" alt="Email" /></a>
 
-<p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="const akash = { role: Software Engineer, now: Intechive Systems, before: Xane AI }" />
-</p>
+<br/><br/>
 
-## ⚡ Tech stack
+<img src="./assets/title-about.svg" width="100%" alt="01 About" />
+<img src="./assets/about.svg" width="100%" alt="Software Engineer at Intechive Systems since October 2025. Previously Frontend Developer at Xane AI (2022 to 2025). Bangalore, India. Web: React, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS. Mobile: React Native, Expo, React Navigation. Open to frontend and React Native roles, and freelance projects." />
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,redux,tailwind,materialui,html,css&theme=dark&perline=8" alt="Web stack" /><br/><br/>
-  <img src="https://skillicons.dev/icons?i=jest,git,github,postman,firebase,vite,vscode&theme=dark&perline=7" alt="Tooling" />
-</p>
+<br/><br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React%20Native-0B1026?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/Expo-0B1026?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
-  <img src="https://img.shields.io/badge/Redux%20Toolkit-0B1026?style=flat-square&logo=redux&logoColor=A78BFA" alt="Redux Toolkit" />
-  <img src="https://img.shields.io/badge/RTK%20Query-0B1026?style=flat-square&logo=redux&logoColor=A78BFA" alt="RTK Query" />
-  <img src="https://img.shields.io/badge/React%20Navigation-0B1026?style=flat-square&logo=react&logoColor=E879F9" alt="React Navigation" />
-  <img src="https://img.shields.io/badge/Recharts-0B1026?style=flat-square&logo=chartdotjs&logoColor=22D3EE" alt="Recharts" />
-  <img src="https://img.shields.io/badge/Testing%20Library-0B1026?style=flat-square&logo=testinglibrary&logoColor=E33332" alt="React Testing Library" />
-  <img src="https://img.shields.io/badge/Rive-0B1026?style=flat-square&logo=rive&logoColor=white" alt="Rive" />
-  <img src="https://img.shields.io/badge/MJML-0B1026?style=flat-square&logo=mjml&logoColor=F45E43" alt="MJML" />
-</p>
+<img src="./assets/title-stack.svg" width="100%" alt="02 Stack" />
+<img src="./assets/stack.svg" width="100%" alt="JavaScript, TypeScript, HTML5, CSS3, React, Redux, React Router, Tailwind CSS, Material UI, shadcn/ui, Radix UI, React Native, Expo, Rive, Jest, Testing Library, Webpack, Postman, Git, GitHub, PWA" />
 
-## 🛰️ What I've shipped
+<br/><br/>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏢 Intechive Systems</h3>
-      <sub>Software Engineer · Bangalore · October 2025 – present</sub>
-      <ul>
-        <li>Admin analytics dashboard for a public sector platform, with interactive charts and date-range filtering</li>
-        <li>Role-based authentication and permission-driven UI</li>
-        <li>Patient-facing mobile app: phone login, secure PIN, multi-device sessions, text and voice chat</li>
-        <li>Field-worker mobile app with onboarding, QR-code workflows and alerts</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤖 Xane AI</h3>
-      <sub>Frontend Developer · Gurgaon · September 2022 – May 2025</sub>
-      <ul>
-        <li>Built about <b>70%</b> of the frontend for the workflow and template platform (form automation)</li>
-        <li>Delivered a vision-analysis UI module in <b>2 weeks</b></li>
-        <li>Progressive Web App proof of concept for paint saturation analysis</li>
-        <li>Company website built from scratch, with Rive animations</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="./assets/title-experience.svg" width="100%" alt="03 Experience" />
+<img src="./assets/experience.svg" width="100%" alt="Software Engineer at Intechive Systems (October 2025 to present) and Frontend Developer at Xane AI (September 2022 to May 2025)" />
 
-## 📡 GitHub activity
+<br/><br/>
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Akash-kumar-2021&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B1026&title_color=22D3EE&icon_color=E879F9&text_color=CBD5E1&ring_color=818CF8" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-kumar-2021&layout=compact&langs_count=6&hide_border=true&bg_color=0B1026&title_color=22D3EE&text_color=CBD5E1" alt="Top languages" />
-</p>
+<img src="./assets/title-activity.svg" width="100%" alt="04 Activity" />
+<img src="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/profile-3d.svg" width="100%" alt="3D contribution calendar" />
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Akash-kumar-2021&hide_border=true&background=0B1026&ring=818CF8&fire=E879F9&currStreakLabel=22D3EE&sideLabels=CBD5E1&dates=64748B&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=1E293B" alt="Contribution streak" />
-</p>
+<img src="https://streak-stats.demolab.com?user=Akash-kumar-2021&hide_border=true&border_radius=12&background=0A0A0A&stroke=262626&ring=FF5A1F&fire=FF5A1F&currStreakNum=EDEDED&sideNums=EDEDED&currStreakLabel=EDEDED&sideLabels=A1A1A1&dates=6B6B6B" width="100%" alt="Contribution streak" />
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-light.svg" />
-    <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-dark.svg" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-dark.svg" width="100%" alt="Contribution snake" />
+</picture>
 
-<p align="center"><sub>❯ open to frontend and React Native engineering roles, and freelance projects · <a href="https://akashkumar.tech/">akashkumar.tech</a></sub></p>
+<img src="./assets/footer.svg" width="100%" alt="" />
+
+</div>

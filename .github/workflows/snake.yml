@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile visuals
 
 on:
   schedule:
@@ -13,14 +13,27 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
-      - uses: Platane/snk@v3
+      - uses: actions/checkout@v4
+
+      - name: 3D contribution city
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d.json
+
+      - name: Contribution snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#0F172A,#1E3A8A,#4F46E5,#A855F7,#E879F9
-            dist/snake-light.svg?color_snake=#4F46E5&color_dots=#EBEDF0,#C7D2FE,#818CF8,#6366F1,#4338CA
+            dist/snake-dark.svg?palette=github-dark&color_snake=#FF5A1F&color_dots=#171717,#3D2418,#7A3417,#C2461B,#FF5A1F
+            dist/snake-light.svg?color_snake=#E0480F&color_dots=#EBEDF0,#FFD9C7,#FFA77D,#FF7A3D,#E0480F
+
+      - name: Collect outputs
+        run: cp profile-3d-contrib/profile-3d.svg dist/
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
