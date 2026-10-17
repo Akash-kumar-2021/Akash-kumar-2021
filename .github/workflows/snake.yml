@@ -33,11 +33,14 @@ jobs:
             dist/snake-light.svg?color_snake=#E0480F&color_dots=#EBEDF0,#FFD9C7,#FFA77D,#FF7A3D,#E0480F
 
       - name: Collect outputs
-        run: cp profile-3d-contrib/profile-3d.svg dist/
+        run: |
+          mkdir -p site
+          cp dist/*.svg site/
+          cp profile-3d-contrib/profile-3d.svg site/
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
