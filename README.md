@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://akashkumar.tech/"><img src="./assets/hero.svg" width="100%" alt="Akash Kumar — Software Engineer, web and mobile" /></a>
+<a href="https://akashkumar.tech/"><img src="./assets/banner.svg" width="100%" alt="Akash Kumar — Software Engineer, web and mobile" /></a>
 
 <a href="https://akashkumar.tech/"><img src="./assets/btn-portfolio.svg" height="46" alt="Portfolio" /></a>&nbsp;
 <a href="https://www.linkedin.com/in/akash-kumar-05b6881a8/"><img src="./assets/btn-linkedin.svg" height="46" alt="LinkedIn" /></a>&nbsp;
