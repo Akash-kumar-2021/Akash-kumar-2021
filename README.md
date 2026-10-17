@@ -75,10 +75,6 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Akash-kumar-2021&bg_color=0B1026&color=CBD5E1&line=22D3EE&point=E879F9&area=true&area_color=4F46E5&hide_border=true&title_color=22D3EE&custom_title=Contribution%20signal" alt="Contribution activity graph" />
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-light.svg" />
