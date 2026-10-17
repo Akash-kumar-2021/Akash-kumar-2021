@@ -23,17 +23,6 @@
 
 <br/><br/>
 
-<img src="./assets/title-activity.svg" width="100%" alt="04 Activity" />
-<img src="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/profile-3d.svg" width="100%" alt="3D contribution calendar" />
-
-<img src="https://streak-stats.demolab.com?user=Akash-kumar-2021&hide_border=true&border_radius=12&background=0A0A0A&stroke=262626&ring=FF5A1F&fire=FF5A1F&currStreakNum=EDEDED&sideNums=EDEDED&currStreakLabel=EDEDED&sideLabels=A1A1A1&dates=6B6B6B" width="100%" alt="Contribution streak" />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-light.svg" />
-  <img src="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/snake-dark.svg" width="100%" alt="Contribution snake" />
-</picture>
-
 <img src="./assets/footer.svg" width="100%" alt="" />
 
 </div>
