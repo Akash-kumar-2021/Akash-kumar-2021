@@ -23,6 +23,11 @@
 
 <br/><br/>
 
+<img src="./assets/title-activity.svg" width="100%" alt="04 Activity" />
+<img src="https://raw.githubusercontent.com/Akash-kumar-2021/Akash-kumar-2021/output/activity.svg" width="100%" alt="GitHub activity: contributions by year, by weekday and over the last 12 months" />
+
+<br/><br/>
+
 <img src="./assets/footer.svg" width="100%" alt="" />
 
 </div>
