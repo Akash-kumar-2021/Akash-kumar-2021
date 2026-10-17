@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Akash Kumar profile as code">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B18"/>
+      <stop offset="1" stop-color="#0B1026"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#E879F9"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1200" height="430" rx="18"/></clipPath>
+    <style>
+      text{white-space:pre;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:19px}
+      .k{fill:#C084FC}.v{fill:#E2E8F0}.p{fill:#7DD3FC}.s{fill:#86EFAC}.n{fill:#FBBF24}.c{fill:#64748B}.b{fill:#94A3B8}
+      .l{opacity:0;animation:in .35s ease-out forwards}
+      @keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:translateX(0)}}
+      .caret{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="430" fill="url(#tbg)"/>
+    <rect width="1200" height="44" fill="#0F172A"/>
+    <circle cx="28" cy="22" r="7" fill="#FF5F57"/><circle cx="52" cy="22" r="7" fill="#FEBC2E"/><circle cx="76" cy="22" r="7" fill="#28C840"/>
+    <text x="600" y="28" text-anchor="middle" class="b" style="font-size:15px">akash.ts — profile</text>
+
+    <g transform="translate(36 86)">
+      <text class="l" style="animation-delay:.2s" y="0"><tspan class="k">const</tspan><tspan class="v"> akash</tspan><tspan class="b"> = {</tspan></text>
+      <text class="l" style="animation-delay:.6s" y="32"><tspan class="p">   role</tspan><tspan class="b">: </tspan><tspan class="s">"Software Engineer"</tspan><tspan class="b">,</tspan></text>
+      <text class="l" style="animation-delay:1s" y="64"><tspan class="p">   now</tspan><tspan class="b">: </tspan><tspan class="s">"Intechive Systems · Bangalore"</tspan><tspan class="b">,</tspan><tspan class="c">   // since October 2025</tspan></text>
+      <text class="l" style="animation-delay:1.4s" y="96"><tspan class="p">   before</tspan><tspan class="b">: </tspan><tspan class="s">"Frontend Developer @ Xane AI"</tspan><tspan class="b">,</tspan><tspan class="c">   // 2022 – 2025</tspan></text>
+      <text class="l" style="animation-delay:1.8s" y="128"><tspan class="p">   web</tspan><tspan class="b">: [</tspan><tspan class="s">"React"</tspan><tspan class="b">, </tspan><tspan class="s">"TypeScript"</tspan><tspan class="b">, </tspan><tspan class="s">"Redux Toolkit"</tspan><tspan class="b">, </tspan><tspan class="s">"RTK Query"</tspan><tspan class="b">, </tspan><tspan class="s">"MUI"</tspan><tspan class="b">, </tspan><tspan class="s">"Tailwind CSS"</tspan><tspan class="b">],</tspan></text>
+      <text class="l" style="animation-delay:2.2s" y="160"><tspan class="p">   mobile</tspan><tspan class="b">: [</tspan><tspan class="s">"React Native"</tspan><tspan class="b">, </tspan><tspan class="s">"Expo"</tspan><tspan class="b">, </tspan><tspan class="s">"React Navigation"</tspan><tspan class="b">, </tspan><tspan class="s">"Push Notifications"</tspan><tspan class="b">],</tspan></text>
+      <text class="l" style="animation-delay:2.6s" y="192"><tspan class="p">   builds</tspan><tspan class="b">: [</tspan><tspan class="s">"analytics dashboards"</tspan><tspan class="b">, </tspan><tspan class="s">"role-based access"</tspan><tspan class="b">, </tspan><tspan class="s">"real-time chat"</tspan><tspan class="b">, </tspan><tspan class="s">"PWAs"</tspan><tspan class="b">],</tspan></text>
+      <text class="l" style="animation-delay:3s" y="224"><tspan class="p">   testCoverage</tspan><tspan class="b">: </tspan><tspan class="n">100</tspan><tspan class="b">,</tspan><tspan class="c">   // critical UI components · Jest + React Testing Library</tspan></text>
+      <text class="l" style="animation-delay:3.4s" y="256"><tspan class="p">   openTo</tspan><tspan class="b">: [</tspan><tspan class="s">"frontend roles"</tspan><tspan class="b">, </tspan><tspan class="s">"React Native roles"</tspan><tspan class="b">, </tspan><tspan class="s">"freelance"</tspan><tspan class="b">],</tspan></text>
+      <text class="l" style="animation-delay:3.8s" y="288"><tspan class="b">};</tspan></text>
+      <text class="l" style="animation-delay:4.4s" y="336"><tspan class="n">❯ </tspan><tspan class="v">akash.connect()</tspan><tspan class="c">  // akashkumar.tech</tspan></text>
+      <rect class="caret" x="436" y="320" width="11" height="21" fill="#22D3EE"/>
+    </g>
+
+    <rect x="1.5" y="1.5" width="1197" height="427" rx="17" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity=".8"/>
+  </g>
+</svg>

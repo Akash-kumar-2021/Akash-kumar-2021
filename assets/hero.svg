@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Akash Kumar, Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060F"/>
+      <stop offset="0.55" stop-color="#0A0F24"/>
+      <stop offset="1" stop-color="#060A18"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.35" stop-color="#818CF8"/>
+      <stop offset="0.7" stop-color="#E879F9"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowA"><stop offset="0" stop-color="#6366F1" stop-opacity="0.55"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop offset="0" stop-color="#06B6D4" stop-opacity="0.45"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowC"><stop offset="0" stop-color="#D946EF" stop-opacity="0.35"/><stop offset="1" stop-color="#D946EF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+    <mask id="gridMask"><rect width="1200" height="380" fill="url(#fade)"/></mask>
+    <filter id="neon" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="380" rx="22"/></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+      .float1{animation:f1 9s ease-in-out infinite}
+      .float2{animation:f2 11s ease-in-out infinite}
+      .float3{animation:f1 13s ease-in-out infinite reverse}
+      @keyframes f1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,18px)}}
+      @keyframes f2{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,-14px)}}
+      .rise{opacity:0;animation:rise .9s cubic-bezier(.2,.8,.2,1) forwards}
+      .d1{animation-delay:.2s}.d2{animation-delay:.6s}.d3{animation-delay:1s}.d4{animation-delay:1.4s}.d5{animation-delay:1.8s}
+      @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+      .caret{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .glitchA{animation:gA 4s infinite}
+      .glitchB{animation:gB 4s infinite}
+      @keyframes gA{0%,88%,100%{transform:translate(0,0);opacity:0}89%{transform:translate(-4px,1px);opacity:.8}91%{transform:translate(3px,-1px);opacity:.8}93%{opacity:0}}
+      @keyframes gB{0%,88%,100%{transform:translate(0,0);opacity:0}90%{transform:translate(4px,-1px);opacity:.8}92%{transform:translate(-3px,1px);opacity:.8}94%{opacity:0}}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+      .dash{stroke-dasharray:6 10;animation:dash 3s linear infinite}
+      @keyframes dash{to{stroke-dashoffset:-64}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+
+    <!-- Aurora glows -->
+    <circle class="float1" cx="220" cy="80" r="260" fill="url(#glowA)"/>
+    <circle class="float2" cx="1000" cy="300" r="280" fill="url(#glowB)"/>
+    <circle class="float3" cx="760" cy="40" r="200" fill="url(#glowC)"/>
+
+    <!-- Grid floor -->
+    <rect width="1200" height="380" fill="url(#grid)" mask="url(#gridMask)"/>
+
+    <!-- Neural network, right side -->
+    <g stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.2" fill="none">
+      <path class="dash" d="M860 90 L960 150 L1080 110"/>
+      <path class="dash" d="M860 90 L930 240 L1060 230"/>
+      <path class="dash" d="M960 150 L930 240"/>
+      <path class="dash" d="M960 150 L1060 230 L1130 170"/>
+      <path class="dash" d="M1080 110 L1130 170"/>
+      <path class="dash" d="M800 200 L860 90"/>
+      <path class="dash" d="M800 200 L930 240"/>
+    </g>
+    <g fill="#22D3EE" filter="url(#neon)">
+      <circle class="pulse" cx="860" cy="90" r="5"/>
+      <circle class="pulse" cx="960" cy="150" r="6" style="animation-delay:.4s"/>
+      <circle class="pulse" cx="1080" cy="110" r="4" style="animation-delay:.8s"/>
+      <circle class="pulse" cx="930" cy="240" r="5" style="animation-delay:1.2s" fill="#E879F9"/>
+      <circle class="pulse" cx="1060" cy="230" r="6" style="animation-delay:1.6s"/>
+      <circle class="pulse" cx="1130" cy="170" r="4" style="animation-delay:2s" fill="#818CF8"/>
+      <circle class="pulse" cx="800" cy="200" r="4" style="animation-delay:.6s" fill="#818CF8"/>
+    </g>
+    <!-- Signal travelling along the network -->
+    <circle r="3.5" fill="#fff" filter="url(#neon)">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M800 200 L860 90 L960 150 L1060 230 L1130 170 L1080 110 L960 150 L930 240 L800 200"/>
+    </circle>
+
+    <!-- Terminal prompt -->
+    <g class="rise d1 mono" font-size="17">
+      <text x="72" y="92" fill="#64748B">~/akash</text>
+      <text x="148" y="92" fill="#22D3EE">❯</text>
+      <text x="168" y="92" fill="#E2E8F0">npx hello-world --dev akash</text>
+      <rect class="caret" x="452" y="78" width="10" height="18" fill="#22D3EE"/>
+    </g>
+
+    <!-- Name with glitch layers -->
+    <g class="rise d2 sans" font-size="84" font-weight="800" letter-spacing="-2">
+      <text class="glitchA" x="68" y="190" fill="#22D3EE">Akash Kumar</text>
+      <text class="glitchB" x="68" y="190" fill="#E879F9">Akash Kumar</text>
+      <text x="68" y="190" fill="url(#name)" filter="url(#neon)">Akash Kumar</text>
+    </g>
+
+    <!-- Role -->
+    <g class="rise d3">
+      <rect x="70" y="214" width="420" height="2" fill="url(#line)"/>
+      <text class="mono" x="70" y="252" font-size="20" fill="#CBD5E1" letter-spacing="3">SOFTWARE ENGINEER · WEB &amp; MOBILE</text>
+    </g>
+
+    <!-- Stack chips -->
+    <g class="rise d4 mono" font-size="14" fill="#E2E8F0">
+      <g transform="translate(70 280)"><rect width="88" height="32" rx="16" fill="#0EA5E9" fill-opacity=".12" stroke="#22D3EE" stroke-opacity=".6"/><text x="44" y="21" text-anchor="middle">React</text></g>
+      <g transform="translate(168 280)"><rect width="120" height="32" rx="16" fill="#6366F1" fill-opacity=".14" stroke="#818CF8" stroke-opacity=".6"/><text x="60" y="21" text-anchor="middle">TypeScript</text></g>
+      <g transform="translate(298 280)"><rect width="138" height="32" rx="16" fill="#D946EF" fill-opacity=".12" stroke="#E879F9" stroke-opacity=".6"/><text x="69" y="21" text-anchor="middle">React Native</text></g>
+      <g transform="translate(446 280)"><rect width="88" height="32" rx="16" fill="#8B5CF6" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".6"/><text x="44" y="21" text-anchor="middle">Redux</text></g>
+      <g transform="translate(544 280)"><rect width="132" height="32" rx="16" fill="#06B6D4" fill-opacity=".12" stroke="#22D3EE" stroke-opacity=".6"/><text x="66" y="21" text-anchor="middle">Tailwind CSS</text></g>
+    </g>
+
+    <!-- Status line -->
+    <g class="rise d5 mono" font-size="14">
+      <circle class="pulse" cx="76" cy="342" r="5" fill="#22C55E"/>
+      <text x="90" y="347" fill="#94A3B8">Software Engineer @ Intechive Systems  ·  Bangalore, India  ·  akashkumar.tech</text>
+    </g>
+
+    <!-- Scanline sweep -->
+    <rect x="0" y="-80" width="1200" height="80" fill="url(#scan)">
+      <animate attributeName="y" values="-80;380" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="1" y="1" width="1198" height="378" rx="21" fill="none" stroke="#22D3EE" stroke-opacity=".25"/>
+  </g>
+</svg>
